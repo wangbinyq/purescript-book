@@ -19,7 +19,6 @@ main =
   runTest do
     runChapterExamples
     {-  Move this block comment starting point to enable more tests
-Note to reader: Delete this line to expand comment block -}
     suite "Exercise Group - Recursion" do
       test "Exercise - isEven" do
         assert "0 is even"
@@ -165,7 +164,6 @@ Note to reader: Delete this line to expand comment block -}
           $ Assert.equal (Nothing)
           $ whereIs "lss"
 
-{- Note to reader: Delete this line to expand comment block
 -}
 runChapterExamples :: TestSuite
 runChapterExamples =

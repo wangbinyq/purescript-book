@@ -18,7 +18,6 @@ main =
   runTest do
     runChapterExamples
     {-  Move this block comment starting point to enable more tests
-Note to reader: Delete this line to expand comment block -}
     suite "Exercises Group - Monads and Applicatives" do
       suite "third" do
         test "No elements"
@@ -76,7 +75,6 @@ Note to reader: Delete this line to expand comment block -}
                 onlyPositiveEvenIntegers
                 (2 : 3 : 4 : Nil)
 
-{- Note to reader: Delete this line to expand comment block
 -}
 runChapterExamples :: TestSuite
 runChapterExamples =
